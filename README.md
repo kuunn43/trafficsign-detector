@@ -10,6 +10,8 @@
 ``` bash
 $ https://github.com/kuunn43/trafficsign-detector.git
 ```
+download trained <a href="https://drive.google.com/drive/folders/1FPkcCP3y8IlXdnIfEhIhx57hy6F7vCDI?usp=sharing">Models</a>, make a folder called "ckpt" and move the downloaded files into ckpt folder
+
 #### Go into app's directory
 ``` bash
 $ cd trafficsign-detector-master
@@ -21,4 +23,5 @@ $ python predict_video.py
 
 #### Result Preview
 a video will appear like the following image if successful
+
 ![image](https://user-images.githubusercontent.com/71715817/97081041-f122ec00-1629-11eb-95fc-33dcb806a0db.jpg)
